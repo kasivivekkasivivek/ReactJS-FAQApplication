@@ -1,0 +1,52 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.faq-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.heading-text {
+  font-size: 25px;
+  color: #0c57d8;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading-text {
+    font-size: 30px;
+  }
+}
+
+.faqlist-class {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faqlist-unordered-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  padding-left: 0px;
+}
